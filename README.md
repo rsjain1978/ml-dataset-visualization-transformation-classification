@@ -27,3 +27,10 @@
 
 - TopFeaturesKNN-KFold.py
 { Contains code to find top features using KNNClassfier and with Cross Validation (K-Fold) for data splitting}
+
+- RelationalStrengthOfVariables.py
+{ Contains code to plot a corelation between the variables of the provided dataset. This code uses
+corr() function to draw the corelation and then plot using matplotlib}
+
+- InterpretingConfusionMatrix.py
+{ Conatins code to calculating various performance measures using the TP, FN, FP and TN values of two confusion matrix}
