@@ -18,7 +18,6 @@ Y.loc [Y['species'] == 'versicolor', 'species'] = 1
 Y.loc [Y['species'] == 'virginica', 'species'] = 2
 
 #Split the data into test and train using K-Fold
-kf = KFold(n_splits=10)
 train_x, test_x, train_y, test_y =  train_test_split(X,Y)
 
 #Initialize Random Forest Classifier

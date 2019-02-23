@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import KFold
 
-import PrintClassifierPerformance as pcp
+import performancemetrics as pcp
 
 irisData = pd.read_csv('iris.csv')
 
@@ -24,7 +24,7 @@ kFolds = 5
 kf = KFold(n_splits=kFolds,shuffle=True)
 
 #Initialize Random Forest Classifier
-rfClassifier = RandomForestClassifier(criterion='entropy',max_depth=100, max_features='auto', oob_score=True, bootstrap=True)
+rfClassifier = RandomForestClassifier(criterion='entropy',max_depth=4, max_features='auto', oob_score=True, bootstrap=True)
 
 runningModelScore = 0
 for train_index, test_index in kf.split(X):

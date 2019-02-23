@@ -13,24 +13,27 @@
 
 
 #Files Description
-- VisualizeFeatures.py
-{ Contains code to visualize the relation between each feature and class variable via scatter plot and histogram}
+- visualize-features.py
+Contains code to visualize the relation between each feature and class variable via scatter plot and histogram
 
--DataNormalization.py
-{ Contians code to do normalize each feature and do BoxCox transformation}
+- normalize-data.py
+Python code which normalizes each feature and does a BoxCox transformation. Code produces one graph for each feature, where-in each graph shows a normalized and non-normalized data view to show the impact of boxcox tranformation.
 
-- TopFeatures-KFold.py
-{ Contains code to find top features using RandomForestClassfier and with Cross Validation (K-Fold) for data splitting}
+- find-top-features-rf-kfold.py
+Contains code to find top features using RandomForestClassfier and with Cross Validation (K-Fold) for data splitting
 
-- TopFeatures.py
-{ Contains code to find top features using RandomForestClassfier and with Hold Out for data splitting}
+- find-top-features-rf-holdout.py
+Contains code to find top features using RandomForestClassfier and with Hold Out for data splitting
 
-- TopFeaturesKNN-KFold.py
-{ Contains code to find top features using KNNClassfier and with Cross Validation (K-Fold) for data splitting}
+- find-top-features-knn-kfold.py
+Python ode to find top features using KNNClassfier and with Cross Validation (K-Fold) for data splitting
 
-- RelationalStrengthOfVariables.py
-{ Contains code to plot a corelation between the variables of the provided dataset. This code uses
-corr() function to draw the corelation and then plot using matplotlib}
+- relational-strength.py
+Contains code to plot a corelation between the variables of the provided dataset. This code uses
+corr() function to draw the corelation and then plot using matplotlib
 
-- InterpretingConfusionMatrix.py
-{ Conatins code to calculating various performance measures using the TP, FN, FP and TN values of two confusion matrix}
+- interpreting-confusion-matrix.py
+Python code for calculating various performance measures using the TP, FN, FP and TN values of two confusion matrix.
+
+- performancemetrics.py
+Python utility code to show the performance metrics for different classifiers
