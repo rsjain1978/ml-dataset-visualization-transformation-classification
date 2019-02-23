@@ -1,18 +1,18 @@
 # ml-dataset-visualization-transformation-classification
 
-#Top Features for class variable 'species' are
-- Feature Importance is                importance
+# Top Features for class variable 'species' are
+- Feature Importance is
 - petal_length    0.570218
 - petal_width     0.292544
 - sepal_length    0.102146
 - sepal_width     0.035091
 
-#Model Performance
+# Model Performance
 - KNN Model - Average model score is 0.9600000000000002
 - Random Forest - Average model score is 0.9400000000000001
 
 
-#Files Description
+# Files Description
 - visualize-features.py
 Contains code to visualize the relation between each feature and class variable via scatter plot and histogram
 
