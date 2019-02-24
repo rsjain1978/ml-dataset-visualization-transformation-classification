@@ -2,10 +2,10 @@
 
 # Top Features for class variable 'species' are
 - Feature Importance is
-- petal_length    0.570218
-- petal_width     0.292544
-- sepal_length    0.102146
-- sepal_width     0.035091
+  - petal_length    0.570218
+  - petal_width     0.292544
+  - sepal_length    0.102146
+  - sepal_width     0.035091
 
 # Model Performance
 - KNN Model - Average model score is 0.9600000000000002
